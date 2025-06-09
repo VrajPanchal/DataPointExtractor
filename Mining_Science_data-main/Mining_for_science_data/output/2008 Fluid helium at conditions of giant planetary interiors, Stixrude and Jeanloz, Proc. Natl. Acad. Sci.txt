@@ -1,0 +1,182 @@
+## **Fluid helium at conditions of giant planetary interiors**
+
+## **Lars Stixrude*† and Raymond Jeanloz†‡§**
+
+*Department of Earth Sciences, University College London, Gower Street, London WC1E 6BT, United Kingdom; and Departments of ‡Earth and Planetary Sciences and §Astronomy, University of California, Berkeley, CA 94720
+
+Contributed by Raymond Jeanloz, May 16, 2008 (sent for review December 19, 2007)
+
+**As the second most-abundant chemical element in the universe, helium makes up a large fraction of giant gaseous planets, including Jupiter, Saturn, and most extrasolar planets discovered to date. Using first-principles molecular dynamics simulations, we find that fluid helium undergoes temperature-induced metallization at high pressures. The electronic energy gap (band gap) closes at 20,000 K at a density half that of zero-temperature metallization, resulting in electrical conductivities greater than the minimum metallic value. Gap closure is achieved by a broadening of the valence band via increased** *s–p* **hydridization with increasing temperature, and this influences the equation of state: The Gru¨ neisen parameter, which determines the adiabatic temperature–depth gradient inside a planet, changes only modestly, decreasing with compression up to the high-temperature metallization and then increasing upon further compression. The change in electronic structure of He at elevated pressures and temperatures has important implications for the miscibility of helium in hydrogen and for understanding the thermal histories of giant planets.**
+
+high pressure metallization giant planets gap closure hybridization
+
+**H**elium is known to be an electrical insulator at low pressure, with a wide energy gap (19.8 eV) between occupied and unoccupied electron orbitals; it exhibits almost no chemical bonding (1). Under compression, however, helium is predicted to metallize via closure of the energy gap at 100 Mbar (10 TPa) (2), a pressure greater than that at Jupiter's center (3). Thus, one might expect helium to be insulating at giant-planetary conditions, for its solubility in metallic hydrogen to be limited and for addition of helium to limit the electrical conductivity of the gaseous envelope (4).
+
+However, recent high-pressure results have revealed the role of temperature in metallization, particularly in the fluid state. Fluid hydrogen becomes metallic at 1.4 Mbar at high temperature (-103 K) along the shock-wave Hugoniot (5), whereas at low temperature (300 K) crystalline hydrogen is expected to metallize only -4 Mbar (6). In a sense, hydrogen at elevated pressures resembles other materials that undergo insulator-tometal transitions upon melting, such as silicon and carbon, in which the liquid has a more densely-packed structure than the solid phase. Yet the metallization of fluid hydrogen may also be related to changes in the fluid, from dominantly molecular (H2) at lower pressures to dominantly atomic (H) at higher pressures (7). That ionization and dissociation of the molecule take place across overlapping regimes of density and pressure is a complication that has confounded a full understanding of the metallization of hydrogen. The case of helium is thus revealing in that it effectively isolates the influences of temperature and density on the development of metallic bonding, because both liquid and solid are monatomic and close packed at high pressure.
+
+We performed first-principles molecular dynamics simulations and found that the energy gap of fluid helium depends strongly on temperature (Fig. 1). The electronic energy gap can be thought of as the difference in the energies of the highest occupied electronic bonding levels and the lowest unoccupied (nonbonding) electronic levels (valence and conduction bands, respectively, for crystals). Whereas the gap closes at a density of 13 g cm3 at zero temperature, gap closure occurs at 6.6 g cm3
+
+![](_page_0_Figure_10.jpeg)
+
+**Fig. 1.** Calculated electronic energy gap at 0 K (static conditions) (black), 10,000 K (blue), 20,000 K (green), and 50,000 K (red) and along a precompressed Hugoniot with -1/-*0* 4, where -1 is the precompressed density and -0 0.1233 g cm3 (gray).
+
+at 20,000 K, where the pressure is 30 Mbar (3 TPa): conditions achieved well within the fluid envelope of Jupiter (3). Our results differ from those of another recent study that found that temperature has a much weaker influence on the energy gap and that the gap closes at the same density virtually independent of temperature (8). We attribute this difference to the more complete sampling of the Brillouin zone used in our computations of the energy gap (see *Theoretical Methods*).
+
+We find that gap closure originates primarily from a broadening of the valence band, by a factor of nearly two from 0 to 50,000 K and from increased admixture of s-like and *p*-like states with increasing temperature (Fig. 2). Comparison with the next divalent element, Be, is instructive. Like He, both solid and liquid states are closely packed, yet the liquid has a density of states at the Fermi level more than twice that of the solid (9). As in He, participation of *p*-like states in the valence band increases with temperature, and metallicity increases with disorder: The reciprocal lattice vectors responsible for the scattering-induced pseudogap in the solid are smeared out in the liquid structure factor.
+
+The relationship between the liquid structure factor and the electronic structure can be understood on the basis of a nearly free-electron picture (10). The first sharp peak in the structure factor at *V* 1 Å3 per atom (Fig. 3), located at *qP* 7.4 Å1, produces a pseudogap at an energy (given by the de Broglie relation) *W* 2/(2*me*) (*qP*/2)2 52 eV above the bottom of the valence band (note that Fig. 3 is for a volume intermediate between those shown in Figs. 2 and 4). The magnitude of the first
+
+Author contributions: L.S. and R.J. designed research; L.S. performed research; L.S. and R.J. analyzed data; and L.S. and R.J. wrote the paper.
+
+The authors declare no conflict of interest.
+
+Freely available online through the PNAS open access option.
+
+See Commentary on page 11035.
+
+<sup>†</sup>To whom correspondence may be addressed. E-mail: l.stixrude@ucl.ac.uk or jeanloz@berkeley.edu.
+
+<sup>© 2008</sup> by The National Academy of Sciences of the USA
+
+![](_page_1_Figure_0.jpeg)
+
+**Fig. 2.** Calculated electronic energy gap at *V* 2 Å3 per atom (- 3.3 g cm3, red), valence band width *W* (black), and *p* projected-occupied density of states expressed as*p*electrons per atom (*Inset*). Plots below are the electronic density of states at static conditions (*Left*) and at 50,000 K (*Right*): Additional lines in the *Right* figure show the Fermi energy (gray, vertical line) and the temperature-dependent electron occupation as a function of energy (black). The electronic density of states shown is from one representative snapshot of the molecular dynamics simulations on a dense *k*-point mesh, as described in the *Theoretical Methods*, and broadened by 1% of the valence-band width.
+
+sharp peak *S*(*qP*), decreases markedly with increasing temperature, accounting for the closure of the pseudogap with increasing temperature, as 2(*S*(*qp*) 1)*w*(*qp*), where *w* is the effective electron–ion interaction (9).
+
+Valence-band broadening in He can be understood on the basis of modifications to the closely packed arrangement of atoms in the liquid state. Inspection of the radial distribution function shows that at *V* 1 Å3 per atom (6.6 g cm3) the position of the maximum and half-width at half-maximum of the
+
+![](_page_1_Figure_4.jpeg)
+
+**Fig. 3.** Radial distribution function *g*(*r*) and (*Upper Inset*) structure factor *S*(*q*) at *V* 1 Å3 per atom (density 6.6 g/cm3) at 10,000 K (blue), 20,000 K (green), and 50,000 K (red). Indicated for comparison are the nearestneighbor distance in an hcp crystal of the same volume (arrow labeled ''crystal''), the radial distribution function of the screened one-component plasma at 50, and Wigner–Seitz radius, *rs* 1.0 (13) (crosses). The *Lower Inset* shows the maximum value of *g*(*r*) from our simulations (open symbols), and the screened (bold dashed lines interpolated from results of ref. 13) and unscreened (thin solid lines) one-component plasma.
+
+![](_page_1_Figure_6.jpeg)
+
+**Fig. 4.** Density of states at the energy of the electron chemical potential (corresponding to the Fermi energy) at 50,000 K (*Upper*, red curve) compared with the same quantity in the free-electron gas (black dotted curve) and the density of static metallization (arrow) (2). (*Lower*) Plots are the electronic density of states at *V* 0.5 Å3 per atom (- 13.3 g cm3) at static conditions in the crystal (*Left*) and for the fluid at 50,000 K (*Right*), with the chemical potential and electron occupation shown as in Fig. 2.
+
+first peak are 0.98 Å and 0.3 Å, respectively, in the fluid at 50,000 K as compared with the nearest-neighbor distance of 1.12 Å in the perfect, hexagonal closely packed (hcp) crystal at the same density (Fig. 3, arrow). In this sense, local structure in the liquid resembles that of the crystal at 1.5–4 times higher densities. The coordination number in the liquid is 14 over the entire temperature range considered.
+
+One can derive additional insight into the liquid structure by comparison with a simple model, the one-component plasma (OCP) (11). The properties of the OCP depend on a single variable, the unscreened Coulomb coupling parameter,
+
+$\Gamma=\frac{2^{2}e^{2}}{akT}$
+
+where *Z* is the nuclear charge, *e* is the electron charge, *k* is Boltzmann's constant, *T* is temperature, and *a* (3*V*/4)1/3 is the ion-sphere radius. The structure of our simulated liquid differs, however, in that the heights of the peaks in *g*(*r*) and *S*(*q*), as well as the distance to the first peak in *g*(*r*), are smaller than for the OCP over most of the volume–temperature range of our study. Because local structure is largely determined by repulsive forces (12), this difference indicates a weakened effective ion–ion interaction in our simulated fluid as compared with the OCP. Such weakening, caused by electron screening, is in fact expected.
+
+We have found (Fig. 3) that the structure of our simulated fluid at *V* 1 Å3 per atom, *T* 20,000 K ( 54) is remarkably similar to that found in Monte Carlo simulations of the screened OCP in which screening was approximated by the Lindhard dielectric function (13). For - 50, the structure of our simulated fluid begins to depart substantially from that of the screened OCP (Fig. 3). These departures emphasize the importance of first-principles molecular dynamics simulations that include the physics of the electron–ion interaction completely [within the generalized gradient approximation (GGA)]. In our simulated fluid, the height of the first peak in *g*(*r*) is greater than
+
+![](_page_2_Figure_1.jpeg)
+
+**Fig. 5.** Electrical conductivity (solid lines with filled symbols) at 10,000 K (blue), 20,000 K (green), and 50,000 K (red), compared with Kubo–Greenwood results of ref. 8 at 6,000 K (purple open circles), 17,000 K (green open circles), and 30,000 K (orange open circles) and of ref. 40 at 10,000–30,000 K (blue– orange open squares). Experimental values (41), with estimated temperatures increasing with increasing density from 10,000 K to 30,000 K (black diamonds) are also shown, as is the minimum metallic conductivity of Mott (21) (gray band).
+
+that of the screened OCP for - 50 and greater even than that of the unscreened OCP at the highest densities of our study, revealing the importance of non-point-charge repulsion due to overlap of charge accumulations about the nuclei.
+
+The fluid becomes increasingly metallic with increasing density and is nearly free-electron-like at 50,000 K and the density of zero-temperature gap closure (Fig. 4). At these conditions, the fluid has a small pseudogap and a density of states at the chemical potential, (determined by the number condition), 70% that of the free-electron value. Thus, the liquid appears to retain features of the crystal's electronic structure, in particular a local minimum in the density of states at that persists to the highest densities of our study. The density of states at in the fluid at 50,000 K reaches a maximum value at 11 g cm3, where it is 30% that of the free-electron gas.
+
+Metallization may occur at densities and temperatures slightly higher than those we find for gap closure, because of localization of the electrons at the band edges (mobility edges) (14). Moreover, because of systematic limitations of the GGA, we anticipate that our results may underestimate the energy gap. Using GW calculations, one study estimates that GGA may underestimate the band gap by a few eV (8). However, the correction was computed at zero temperature. Recent results show that at finite temperature, density functional theory underestimates the gap by considerably less than previously thought (15) so that our computed band gaps may be accurate to better than a few eV. Reasonable agreement (to within 1 eV) with the excited-state energy of the He atom (16) further indicates that our results should reveal the correct trends.
+
+We find that the electrical conductivity of fluid helium is well described by the Ziman formula (17) modified to account for band-structure effects (18) (Fig. 5)
+
+$\sigma=g^{2}\sigma_{z}$,
+
+where the Ziman resisitivity
+
+$$1/\sigma_{Z}=\frac{a_{0}h}{e^{2}}\ \frac{k_{TF}^{2}}{64ZE_{F}^{2}}\left\{\begin{array}{c}q^{3}S(q)v^{2}(q)dq\\ \end{array}\right.$$
+
+and *a*0*/e*2 0.217 m, *EF* and *kF* are the (free-electron) Fermi energy and wave vector, respectively, and the effective ion– electron interaction *v*(*q*) is that of the screened Coulomb potential with inverse screening length equal to the Thomas–Fermi wave vector *kTF* (19)
+
+$v(q)=\frac{4\pi Ze^{2}}{q^{2}+k_{TF}^{2}}$.  
+  
+
+The influence of the pseudogap (Fig. 2) appears in the factor
+
+$\begin{array}{c}\mbox{\rm$\bar{N}(\mu)$}\\ \mbox{\rm$\bar{N}_{0}(E_{F})$}\end{array}$
+
+the ratio of the temperature-smoothed density of states at the chemical potential 
+
+$$\bar{N}(\mu)=\int N(\varepsilon)\,\frac{\partial f}{\partial\varepsilon}\,d\varepsilon\bigg/\int\frac{\partial f}{\partial\varepsilon}\,d\varepsilon,$$
+
+where *f*/ is the derivative of the Fermi–Dirac distribution, to the free-electron value of the density of states at the Fermi level. The value of *g* in fluid helium is everywhere less than unity, so that the conductivity is reduced as compared with the Ziman result. This analysis shows that the electronic structure of fluid helium lies in a regime in which the Edward's cancellation theorem (20) no longer applies, and the electron mean-free path is not much larger than the interatomic spacing. The electrical conductivity of fluid helium at the density of high-temperature gap closure is similar to that of the minimum metallic conductivity of Mott (21): 0.026 0.333*e*2/*2a* (Fig. 5).
+
+The influence of energy-gap closure on the equation of state is seen in the behavior of the Gru¨neisen parameter , which controls the adiabatic temperature gradient: ( ln*T*/ ln-)*S* (Fig. 6*A*). The value of decreases upon compression up to the density of 13 g cm3 and then begins to increase at higher densities. In comparison, a plasma model (22) and the He equation of state from the SESAME tables (23) predict large oscillations in the value of associated with pressure-induced ionization transitions; these oscillations are not found in our study. In the plasma or ''chemical'' picture (22) the fluid is viewed as a collection of electrons, atoms, and singly and doubly charged ions with internal energy levels that are assumed to be unperturbed by interactions with surrounding particles. This picture predicts a rapid increase in the ionization with pressure, which produces a large increase in the density and anomalies in the Gru¨neisen parameter and other derivatives of the equation of state. We find no evidence of rapid pressure ionization, and the difference in density between our results and the plasma model reaches 50% at conditions of the Jovian gaseous envelope (Fig. 6*B*).
+
+First-principles molecular dynamics simulations illustrate the limitations of the plasma model at conditions where orbital overlap is large, and electronic states are best described as spatially extended. In particular, the approximation of unperturbed internal energy-levels for the electron orbitals of the atom is unlikely to be valid at conditions where the valence bandwidth greatly exceeds the gap, as is the case over most of the pressure range of our study. In the case of hydrogen, the most recent quantum Monte Carlo and density-functional molecular dynamics studies also disagree with the plasma model in finding no evidence of a plasma phase transition (24, 25).
+
+Our predictions of the equation of state and electronic properties can be tested with emerging experimental technology (26, 27) (Fig. 7). Shock waves, including multiple shocks and ''ramp'' waves, generated by powerful lasers in samples precompressed in a diamond-anvil cell provide a means of experimen-
+
+![](_page_3_Figure_0.jpeg)
+
+**Fig. 6.** Thermal equation-of-state properties of He. (*A*) The Gru¨ neisen parameter from our simulations (circles), the plasma model (22) (gold line), and SESAME EOS 5761 (23), identical in this density range to the SESAMEp Helium EOS of Saumon and Guillot (42) (purple) at 15,000 K. Our values are from the finite difference in pressure *P* and internal energy *E* between 10,000 K and 20,000 K [ *V*(*P*/*E*)*V*] (filled circles) and from fluctuations (43) at 10,000 K (blue open circles) and 20,000 K (green open circles). (*B*) Equation of state of fluid helium at static conditions (black, from LAPW calculations), 10,000 K (blue), 20,000 K (green), and 50,000 K (red) from our simulations (circles, solid lines) compared with the plasma model (22) interpolated to 20,000 K (green dashed line) and to experimental shock-compression data for which the estimated temperatures are 20,000 K [diamond (44), squares (41)]. Dotted line shows the difference in density at 20,000 K between our calculations and the plasma model (22). Comparison with LAPW calculations show that PAW is accurate to at least 300 Mbar, whereas at 1 Gbar, PAW overestimates the pressure by 10%. Our calculated equation of state of fluid helium is in good agreement with a path-integral Monte Carlo study at lower densities and higher temperatures (45) and a density-functional moleculardynamics study at lower temperature and pressure (40).
+
+tally accessing the entire range of pressure–temperature conditions of giant planets. For example, we predict that the energy gap closes at a density of 2.3 g cm3 along the Hugoniot for 4-fold precompression: one-fifth the density required for gap closure under static conditions. The influence of temperature on the electronic structure is also illustrated by the carrier concentration, which increases with increasing pressure and increasing temperature, primarily due to closing of the energy gap. We predict that experimental measurements along the 15-fold precompressed Hugoniot will be particularly revealing: requiring an initial (precompressed) pressure of 1 Mbar at ambient temperature, this Hugoniot includes pressure–temperature conditions at which our results differ significantly from those of the plasma model (22), and the nonmetal-to-metal transition should be experimentally detectable via optical absorption and reflectance measurements.
+
+The large influence of temperature on the electronic structure of helium implies that helium rain is unlikely in present-day
+
+![](_page_3_Figure_4.jpeg)
+
+**Fig. 7.** Summary of electronic properties of fluid helium at high pressures and temperatures. The logarithm of the carrier concentration *n* is represented by thin black solid contours, and the background color is chosen such that the plasma frequency *p* (4*e*2*n*/*m*), where *e* is the electron charge, and *m* is the electron mass, takes on values equal to that of visible light in the white band, which represents the absorption edge in the Drude model (46). Red lines are predicted Hugoniots for precompressions -1/-0 indicated by the numerical values shown at the top. The blue solid line represents the closure of the electronic energy gap, and purple dotted lines are the conditions at which the He concentration reaches 10% (labeled ''onset'') and 50% (labeled ''PI'') of pressure ionization in the plasma model (22). For comparison, model temperature distributions (47) for the interiors of Jupiter, extrasolar planet HD209458b and brown dwarf Gl229b are indicated by dashed black curves.
+
+Jupiter or Saturn. It has been suggested that exsolution and gravitational segregation of helium from hydrogen, upon cooling of the planet, may be responsible for the excess luminosity of Saturn. This argument comes from estimates of the hydrogen– helium miscibility gap that, so far, have been based on calculations performed at low temperature. The results of ref. 28 are based on static calculations with no relaxation about defects. Whereas the miscibility gap computed in ref. 29 is based on static calculations including relaxation and tested against molecular dynamics simulations, the influence of temperature on the electronic structure is slight up to the maximum temperatures of only 3,000 K that were considered. For models of Saturnian evolution, He rainout, if it occurs, would take place at pressures and temperatures in the range of 1–10 Mbar and 5,000–10,000 K, which encompasses the regime (*V* 2 Å3) in which we find that temperature increases the valence bandwidth and decreases the pseudogap by a factor of two as compared with 0 K (Fig. 2). For Jupiter, and for extrasolar planets larger and older than Jupiter, still higher pressures and temperatures become relevant, and the He energy gap may be completely closed, according to our calculations.
+
+Miscibility of He in hydrogen is thus likely to be enhanced in comparison with the predictions of previous low-temperature calculations, because temperature transforms dense fluid helium from an insulator to a semiconductor and, ultimately, a metal. Enhanced solubility would reduce the critical temperature for miscibility, below which hydrogen and helium are immiscible, to values below those indicated by thermal-evolution models for Saturn. Other mechanisms must therefore be found to explain the excess luminosity of Saturn and the helium deficiency of the Jovian and Saturnian atmospheres (30).
+
+The electronic structure of helium may also have an important influence on magnetic-field generation. The magnetic diffusivity 1/*0*, where is the electrical conductivity and *0* the magnetic permeability, controls the free-decay time of the magnetic field; it also controls the power of the field and its form, whether it be dipolar or multipolar, via the dimensionless magnetic Ekman number *E* / *D*2 and magnetic Reynolds number *Rm u*/ *D*, where is the rotation rate, *D* is depth of the fluid, and *u* is the flow speed (31). Temperature-induced band-gap closure in helium tends to enhance the electrical conductivity, hence decrease the magnetic diffusivity and increase the magnetic Reynolds number, over the values typically assumed.
+
+## **Theoretical Methods**
+
+Ourmoleculardynamicssimulationsarebasedondensityfunctionaltheoryinthe GGA (32), using the projector augmented plane wave (PAW) method (33) as implemented in the VASP code (34). Born–Oppenheimer simulations were performed in the canonical ensemble with a Nose´ (35) thermostat with 64 atoms and run for at least 1,000 steps at a 0.1-fs time step. We assume thermal equilibrium between ions and electrons via the Mermin functional (36, 37). Tests using larger systems, up to 144 atoms, and greater run durations, up to 3,000 time steps, showed no significant change in equilibrium thermodynamic properties. The Brillouin zone is sampled at zero wave vector (*k* 0, point); a basis-set size set by the value of the energy cutoff of 600 eV was found sufficient at all but the highest density, where we used an energy cutoff of 1,200 eV. The PAW potentials
+
+- 1. Moore CE (1949) *Atomic Energy Levels as Derived from Analyses of Optical Spectra* (US Government Printing Office, Washington, DC).
+- 2. Young DA, McMahan AK, Ross M (1981) Equation of state and melting curve of helium to very high pressure. *Phys Rev B* 24:5119–5127.
+- 3. Chabrier G (1992) The molecular–metallic transition of hydrogen and the structure of Jupiter and Saturn. *Astrophys J* 391:817–826.
+- 4. Stevenson DJ, Salpeter EE (1977) Phase-diagram and transport properties for hydrogen–helium fluid planets. *Astrophys J Suppl Ser* 35:221–237.
+- 5. Weir ST, Mitchell AC, Nellis WJ (1996) Metallization of fluid molecular hydrogen at 140 GPa (1.4 Mbar). *Phys Rev Lett* 76:1860–1863.
+- 6. Loubeyre P, Occelli F, LeToullec R (2002) Optical studies of solid hydrogen to 320 GPa and evidence for black hydrogen. *Nature* 416:613–617.
+- 7. Scandolo S (2003) Liquid–liquid phase transition in compressed hydrogen from firstprinciples simulations. *Proc Natl Acad Sci USA* 100:3051–3053.
+- 8. Kowalski PM, Mazevet S, Saumon D, Challacombe M (2007) Equation of state and optical properties of warm dense helium. *Phys Rev B* 76:075112.
+- 9. Jank W, Hafner J (1990) Structural and electronic properties of the liquid polyvalent elements. 2. The divalent elements. *Phys Rev B* 42:6926–6938.
+- 10. Nagel SR, Tauc J (1975) Nearly-free-electron approach to theory of metallic glass alloys. *Phys Rev Lett* 35:380–383.
+- 11. Ichimaru S (1982) Strongly coupled plasmas: High-density classical plasmas and degenerate electron liquids. *Rev Mod Phys* 54:1017–1059.
+- 12. Ashcroft NW, Lekner J (1966) Structure and resistivity of liquid metals. *Phys Rev* 145:83–90.
+- 13. Hubbard WB, Slattery WL (1971) Statistical mechanics of light elements at high pressure. 1. Theory and results for metallic hydrogen with simple screening. *Astrophys J* 168:131–139.
+- 14. Mott NF (1990) *Metal-Insulator Transitions* (Taylor & Francis, New York).
+- 15. Faleev SV, van Schilfgaarde M, Kotani T, Leonard F, Desjarlais MP (2006) Finitetemperature quasiparticle self-consistent GW approximation. *Phys Rev B* 74:033101.
+- 16. Laviolette RA, Godin TJ, Switendick AC (1995) First-principles calculation of the electronic structure of condensed spin-polarized excited triplet-state helium. *Phys Rev B* 52:R5487–R5490.
+- 17. Ziman JM (1961) A theory of the electrical properties of liquid metals—The monovalent metals. *Philos Mag* 6:1013–1034.
+- 18. Mott NF, Davis EA (1979) *Electronic Processes in Non-Cyrstalline Materials*(Oxford Univ Press, Oxford).
+- 19. Firey B, Ashcroft NW (1977) Thermodynamics of Thomas–Fermi screened Coulomb systems. *Phys Rev A* 15:2072–2078.
+- 20. Itoh M, Watabe M (1984) Edwards cancellation theorem and the effective mass correction to the Ziman formula for the electrical resistivity. *J Phys F* 14:L9–L13.
+- 21. Mott NF (1972) Conduction in non-crystalline systems. 9. Minimum metallic conductivity. *Philos Mag* 26:1015-&.
+- 22. Winisdoerffer C, Chabrier G (2005) Free-energy model for fluid helium at high density. *Phys Rev E* 71:026402.
+- 23. Lyon SP, Johnson JD (1992) *SESAME: The Los Alamos National Laboratory Equation of State Database*, *LANL Report LA-UR-92*-*3407* (Los Alamos National Laboratory, Los Alamos, NM).
+- 24. Delaney KT, Pierleoni C, Ceperley DM (2006) Quantum Monte Carlo simulation of the high-pressure molecular-atomic crossover in fluid hydrogen. *Phys Rev Lett* 97:235702.
+
+have an outermost cutoff radius of 1.1 Bohr with no electronic states treated as core states. We have also performed a limited number of static full-potential linearized augmented plane wave (LAPW) computations (38) to test the limitations of the PAW method at extremely high number densities (-10 Å3).
+
+The electronic energy gap is, in principle, ill-defined at temperatures -0 K. To determine the gap, we locate the range of energies about the chemical potential for which the density of states is 1% of the maximum valence density of states. Properties of the electronic structure, including the electronic density of states, are computed for a series of uncorrelated snapshots by using an enhanced *k*-point mesh (39) of 4 4 4 for lower densities and up to 12 12 12 for the highest density explored. We found such enhanced *k*-point meshes essential for obtaining converged values of the electronic energy gap and concluded that computing the gap using a single *k*-point (-point) results in systematically larger values of the gap, accounting for the differences between our results and those of ref. 8.
+
+**ACKNOWLEDGMENTS.**We thank N. W. Ashcroft, G. W. Collins, D. J. Stevenson, and R. M. Wentzcovitch for helpful discussions. This work was supported by the U.S. National Science Foundation and Department of Energy and by the University of California.
+
+- 25. Vorberger J, Tamblyn I, Militzer B, Bonev SA (2007) Hydrogen–helium mixtures in the interiors of giant planets. *Phys Rev B* 75:024206.
+- 26. Jeanloz R, *et al.* (2007) Achieving high-density states through shock-wave loading of pre-compressed samples. *Proc Natl Acad Sci USA* 104:9172–9177.
+- 27. Eggert J, *et al.* (2008) Hugoniot data for helium in the ionization regime. *Phys Rev Lett* 100:124503.
+- 28. Klepeis JE, Schafer KJ, Barbee TW, Ross M (1991) Hydrogen–helium mixtures at megabar pressures—Implications for Jupiter and Saturn. *Science* 254:986–989.
+- 29. Pfaffenzeller O, Hohl D, Ballone P (1995) Miscibility of hydrogen and helium under astrophysical conditions. *Phys Rev Lett* 74:2599–2602.
+- 30. Fortney JJ, Hubbard WB (2004) Effects of helium phase separation on the evolution of extrasolar giant planets. *Astrophys J* 608:1039–1049.
+- 31. Olson P, Christensen UR (2006) Dipole moment scaling for convection-driven planetary dynamos. *Earth Planet Sci Lett* 250:561–571.
+- 32. Perdew JP, Wang Y (1992) Accurate and simple analytic representation of the electron– gas correlation energy. *Phys Rev B* 45:13244–13249.
+- 33. Kresse G, Joubert D (1999) From ultrasoft pseudopotentials to the projector augmented-wave method. *Phys Rev B* 59:1758–1775.
+- 34. Kresse G, Furthmuller J (1996) Efficient iterative schemes for *ab initio* total-energy calculations using a plane-wave basis set. *Phys Rev B* 54:11169–11186.
+- 35. Nose´ S (1984) A molecular-dynamics method for simulations in the canonical ensemble. *Mol Phys* 52:255–268.
+- 36. Mermin ND (1965) Thermal properties of inhomogeneous electron gas. *Phys Rev* 137:A1441–A1443.
+- 37. Wentzcovitch RM, Martins JL, Allen PB (1992) Energy versus free-energy conservation in 1st-principles molecular-dynamics. *Phys Rev B* 45:11372–11374.
+- 38. Wei SH, Krakauer H (1985) Local-density-functional calculations of the pressureinduced metallization of BaSe and BaTe. *Phys Rev Lett* 55:1200–1203.
+- 39. Prendergast D, Grossman JC, Galli G (2005) The electronic structure of liquid water within density-functional theory, *J Chem Phys* 123:014501.
+- 40. Kietzmann A, Holst B, Redmer R, Desjarlais MP, Mattsson TR (2007) Quantum molecular dynamics simulations for the nonmetal-to-metal transition in fluid helium. *Phys Rev Lett* 98:190602.
+- 41. Ternovoi VY, Filimonov AS, Pyalling AA, Mintsev VB, Fortov VE (2002) Thermophysical properties of helium under multiple shock compression in *Shock Compression of Condensed Matter—*2001 (American Institute of Physics, New York), pp 107–110.
+- 42. Saumon D, Guillot T (2004) Shock compression of deuterium and the interiors of Jupiter and Saturn. *Astrophys J* 609:1170–1180.
+- 43. McQuarrie DA (1976) *Statistical Mechanics* (Harper and Row, New York).
+- 44. Nellis WJ, *et al.* (1984) Shock compression of liquid-helium to 56-GPa (560-kbar). *Phys Rev Lett* 53:1248–1251.
+- 45. Militzer B (2006) First principles calculations of shock compressed fluid helium. *Phys Rev Lett* 97:175501.
+- 46. Ashcroft NW, Mermin ND (1976) *Solid State Physics* (Holt Rinehart and Winston, New York).
+- 47. Hubbard WB, Burrows A, Lunine JI (2002) Theory of giant planets. *Annu Rev Astron Astrophys* 40:103–136.
+

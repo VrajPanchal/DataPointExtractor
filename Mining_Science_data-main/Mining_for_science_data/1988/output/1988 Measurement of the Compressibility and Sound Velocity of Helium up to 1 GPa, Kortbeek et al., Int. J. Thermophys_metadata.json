@@ -1,0 +1,41 @@
+{
+    "equations": [
+        "$$\\rho=A+Bp^{-1}+Cp^{-2}+Dp^{-m}\\tag{1}$$",
+        "$$p^{\\,\\star}=\\rho^{\\,\\star}T^{\\,\\star}+\\rho^{\\,\\star\\,2}(B_{1}\\,T^{\\,\\star\\,3/4}-C_{1}\\,T^{\\,\\star\\,1/4})+\\rho^{\\,\\star\\,3}(B_{2}\\,T^{\\,\\star\\,1/2}-2C_{2})$$",
+        "$$+\\rho^{\\,\\star\\,4}(B_{3}\\,T^{\\,\\star\\,1/4}-3C_{3}\\,T^{\\,\\star\\,-\\,1/4})+\\rho^{\\,\\star\\,5}(B_{4}-4C_{4}\\,T^{\\,\\star\\,-\\,1/2})\\tag{2}$$",
+        "$$-\\rho^{\\,\\star\\,6}(5C_{5}\\,T^{\\,\\star\\,-\\,3/4})+\\rho^{\\,\\star\\,11}B_{10}\\,T^{\\,\\star\\,-\\,3/2}$$",
+        "$$w^{2}=1/\\{M[(\\partial\\rho/\\partial p)_{\\rm T}-T(\\partial\\rho/\\partial T)_{\\rm p}^{2}/\\rho^{2}C_{\\rm p}(p,T)]\\}\\tag{3}$$"
+    ],
+    "figures": [
+        {
+            "image_reference": "_page_3_Figure_3.jpeg",
+            "number": "1",
+            "caption": "Fig. 1. Sound velocity in helium as a function of pressure up to 1 GPa, at several temperatures."
+        },
+        {
+            "image_reference": "_page_4_Figure_1.jpeg",
+            "number": "2",
+            "caption": "Fig. 2. **Sound velocity in helium as a function of pressure up to**  0.4 GPa, **at several temperatures.**"
+        },
+        {
+            "image_reference": "_page_5_Figure_1.jpeg",
+            "number": "3",
+            "caption": "Fig. 3. Sound velocity in helium as a function of temperature at round values of the pressure."
+        },
+        {
+            "image_reference": "_page_7_Figure_3.jpeg",
+            "number": "4",
+            "caption": "**Fig. 4.**  Comparison between previous and the present density data at 298.15 K."
+        },
+        {
+            "image_reference": "_page_8_Figure_4.jpeg",
+            "number": "5",
+            "caption": "Fig. 5. Comparison between previous and the present soundvelocity data."
+        },
+        {
+            "image_reference": "_page_9_Figure_4.jpeg",
+            "number": "6",
+            "caption": "**Fig. 6.**  Comparison between previous and the present data for Y, **the**  ratio of specific heats."
+        }
+    ]
+}

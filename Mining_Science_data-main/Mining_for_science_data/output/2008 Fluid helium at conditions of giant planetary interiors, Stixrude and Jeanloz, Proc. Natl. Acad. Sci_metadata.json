@@ -1,0 +1,49 @@
+{
+    "equations": [
+        "$\\Gamma=\\frac{2^{2}e^{2}}{akT}$",
+        "$\\sigma=g^{2}\\sigma_{z}$",
+        "$$1/\\sigma_{Z}=\\frac{a_{0}h}{e^{2}}\\ \\frac{k_{TF}^{2}}{64ZE_{F}^{2}}\\left\\{\\begin{array}{c}q^{3}S(q)v^{2}(q)dq\\\\ \\end{array}\\right.$$",
+        "$v(q)=\\frac{4\\pi Ze^{2}}{q^{2}+k_{TF}^{2}}$",
+        "$\\begin{array}{c}\\mbox{\\rm$",
+        "$}\\\\ \\mbox{\\rm$",
+        "$}\\end{array}$",
+        "$$\\bar{N}(\\mu)=\\int N(\\varepsilon)\\,\\frac{\\partial f}{\\partial\\varepsilon}\\,d\\varepsilon\\bigg/\\int\\frac{\\partial f}{\\partial\\varepsilon}\\,d\\varepsilon,$$"
+    ],
+    "figures": [
+        {
+            "image_reference": "_page_0_Figure_10.jpeg",
+            "number": "1",
+            "caption": "**Fig. 1.** Calculated electronic energy gap at 0 K (static conditions) (black), 10,000 K (blue), 20,000 K (green), and 50,000 K (red) and along a precompressed Hugoniot with -1/-*0* 4, where -1 is the precompressed density and -0 0.1233 g cm3 (gray)."
+        },
+        {
+            "image_reference": "_page_1_Figure_0.jpeg",
+            "number": "2",
+            "caption": "**Fig. 2.** Calculated electronic energy gap at *V* 2 \u00c53 per atom (- 3.3 g cm3, red), valence band width *W* (black), and *p* projected-occupied density of states expressed as*p*electrons per atom (*Inset*). Plots below are the electronic density of states at static conditions (*Left*) and at 50,000 K (*Right*): Additional lines in the *Right* figure show the Fermi energy (gray, vertical line) and the temperature-dependent electron occupation as a function of energy (black). The electronic density of states shown is from one representative snapshot of the molecular dynamics simulations on a dense *k*-point mesh, as described in the *Theoretical Methods*, and broadened by 1% of the valence-band width."
+        },
+        {
+            "image_reference": "_page_1_Figure_4.jpeg",
+            "number": "3",
+            "caption": "**Fig. 3.** Radial distribution function *g*(*r*) and (*Upper Inset*) structure factor *S*(*q*) at *V* 1 \u00c53 per atom (density 6.6 g/cm3) at 10,000 K (blue), 20,000 K (green), and 50,000 K (red). Indicated for comparison are the nearestneighbor distance in an hcp crystal of the same volume (arrow labeled ''crystal''), the radial distribution function of the screened one-component plasma at 50, and Wigner\u2013Seitz radius, *rs* 1.0 (13) (crosses). The *Lower Inset* shows the maximum value of *g*(*r*) from our simulations (open symbols), and the screened (bold dashed lines interpolated from results of ref. 13) and unscreened (thin solid lines) one-component plasma."
+        },
+        {
+            "image_reference": "_page_1_Figure_6.jpeg",
+            "number": "4",
+            "caption": "**Fig. 4.** Density of states at the energy of the electron chemical potential (corresponding to the Fermi energy) at 50,000 K (*Upper*, red curve) compared with the same quantity in the free-electron gas (black dotted curve) and the density of static metallization (arrow) (2). (*Lower*) Plots are the electronic density of states at *V* 0.5 \u00c53 per atom (- 13.3 g cm3) at static conditions in the crystal (*Left*) and for the fluid at 50,000 K (*Right*), with the chemical potential and electron occupation shown as in Fig. 2."
+        },
+        {
+            "image_reference": "_page_2_Figure_1.jpeg",
+            "number": "5",
+            "caption": "**Fig. 5.** Electrical conductivity (solid lines with filled symbols) at 10,000 K (blue), 20,000 K (green), and 50,000 K (red), compared with Kubo\u2013Greenwood results of ref. 8 at 6,000 K (purple open circles), 17,000 K (green open circles), and 30,000 K (orange open circles) and of ref. 40 at 10,000\u201330,000 K (blue\u2013 orange open squares). Experimental values (41), with estimated temperatures increasing with increasing density from 10,000 K to 30,000 K (black diamonds) are also shown, as is the minimum metallic conductivity of Mott (21) (gray band)."
+        },
+        {
+            "image_reference": "_page_3_Figure_0.jpeg",
+            "number": "6",
+            "caption": "**Fig. 6.** Thermal equation-of-state properties of He. (*A*) The Gru\u00a8 neisen parameter from our simulations (circles), the plasma model (22) (gold line), and SESAME EOS 5761 (23), identical in this density range to the SESAMEp Helium EOS of Saumon and Guillot (42) (purple) at 15,000 K. Our values are from the finite difference in pressure *P* and internal energy *E* between 10,000 K and 20,000 K [ *V*(*P*/*E*)*V*] (filled circles) and from fluctuations (43) at 10,000 K (blue open circles) and 20,000 K (green open circles). (*B*) Equation of state of fluid helium at static conditions (black, from LAPW calculations), 10,000 K (blue), 20,000 K (green), and 50,000 K (red) from our simulations (circles, solid lines) compared with the plasma model (22) interpolated to 20,000 K (green dashed line) and to experimental shock-compression data for which the estimated temperatures are 20,000 K [diamond (44), squares (41)]. Dotted line shows the difference in density at 20,000 K between our calculations and the plasma model (22). Comparison with LAPW calculations show that PAW is accurate to at least 300 Mbar, whereas at 1 Gbar, PAW overestimates the pressure by 10%. Our calculated equation of state of fluid helium is in good agreement with a path-integral Monte Carlo study at lower densities and higher temperatures (45) and a density-functional moleculardynamics study at lower temperature and pressure (40)."
+        },
+        {
+            "image_reference": "_page_3_Figure_4.jpeg",
+            "number": "7",
+            "caption": "**Fig. 7.** Summary of electronic properties of fluid helium at high pressures and temperatures. The logarithm of the carrier concentration *n* is represented by thin black solid contours, and the background color is chosen such that the plasma frequency *p* (4*e*2*n*/*m*), where *e* is the electron charge, and *m* is the electron mass, takes on values equal to that of visible light in the white band, which represents the absorption edge in the Drude model (46). Red lines are predicted Hugoniots for precompressions -1/-0 indicated by the numerical values shown at the top. The blue solid line represents the closure of the electronic energy gap, and purple dotted lines are the conditions at which the He concentration reaches 10% (labeled ''onset'') and 50% (labeled ''PI'') of pressure ionization in the plasma model (22). For comparison, model temperature distributions (47) for the interiors of Jupiter, extrasolar planet HD209458b and brown dwarf Gl229b are indicated by dashed black curves."
+        }
+    ]
+}
