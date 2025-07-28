@@ -1,8 +1,4 @@
 # DataPointExtractor
-Extract data points by first converting plots into python using selfplay and RL
+Extract data points by using CV contour analysis
 
-Use the extract_Image.py script to extract plots from pdf files
-
-Selfplay.py is used to convert the images into python plots
-
-AutoChart can be used to extract the line from the graph to overlay onto the plot for training
+Run the CV_Graph_Extractor/main_graph_extractor.py file with the desired graph
