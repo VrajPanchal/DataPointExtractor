@@ -2,7 +2,13 @@ import numpy as np
 import cv2
 
 def detect_axes(image):
-    edges = cv2.Canny(image, 50, 150, apertureSize=3)
+    # Convert to binary (black and white)
+    if len(image.shape) == 3:
+        gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    else:
+        gray = image
+    _, bw = cv2.threshold(gray, 127, 255, cv2.THRESH_BINARY)
+    edges = cv2.Canny(bw, 50, 150, apertureSize=3)
     lines = cv2.HoughLinesP(edges, 1, np.pi/180, threshold=100, minLineLength=100, maxLineGap=10)
     horizontal_lines = []
     vertical_lines = []
@@ -42,6 +48,12 @@ def extend_axes(x_axis, y_axis):
     return x_axis, y_axis
 
 def find_tickmarks(image, x_axis, y_axis):
+    # Convert to binary (black and white)
+    if len(image.shape) == 3:
+        gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    else:
+        gray = image
+    _, bw = cv2.threshold(gray, 127, 255, cv2.THRESH_BINARY)
     min_x_tickmark = (int(x_axis[0]), int(x_axis[1]))
     min_y_tickmark = (int(y_axis[0]), int(y_axis[1]))
     max_x_tickmark = (int(x_axis[2]), int(x_axis[3]))
@@ -49,7 +61,13 @@ def find_tickmarks(image, x_axis, y_axis):
     return min_x_tickmark, max_x_tickmark, min_y_tickmark, max_y_tickmark
 
 def remove_axes_and_ticks(image, x_axis, y_axis, tick_length=10, line_thickness=3):
-    cleaned_image = image.copy()
+    # Convert to binary (black and white)
+    if len(image.shape) == 3:
+        gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    else:
+        gray = image
+    _, bw = cv2.threshold(gray, 127, 255, cv2.THRESH_BINARY)
+    cleaned_image = bw.copy()
     cv2.line(cleaned_image, (x_axis[0], x_axis[1]), (x_axis[2], x_axis[3]), 255, line_thickness * 2)
     cv2.line(cleaned_image, (y_axis[0], y_axis[1]), (y_axis[2], y_axis[3]), 255, line_thickness * 2)
     for x in range(x_axis[0] - tick_length, x_axis[2] + tick_length + 1, tick_length):

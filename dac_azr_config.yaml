@@ -1,0 +1,87 @@
+# DAC-AZR Configuration File
+# Diagram-as-Code Absolute Zero Reasoner Configuration
+
+# Training Parameters
+training:
+  population_size: 100
+  max_generations: 50
+  early_stopping_patience: 5
+  early_stopping_threshold: 0.01
+  
+# Output Configuration
+output:
+  base_dir: "dac_azr_output"
+  save_progress_every: 10
+  save_best_programs: 10
+  
+# Diagram Generation Parameters
+diagram_generation:
+  complexity_range: [0.1, 1.0]
+  supported_types:
+    - line_plot
+    - bar_chart
+    - scatter
+    - pie_chart
+    - heatmap
+  
+  # Line plot parameters
+  line_plot:
+    min_lines: 1
+    max_lines: 5
+    min_points: 5
+    max_points: 20
+    x_range: [0, 10]
+    y_range: [0, 20]
+    
+  # Bar chart parameters
+  bar_chart:
+    min_bars: 3
+    max_bars: 10
+    height_range: [1, 25]
+    
+  # Scatter plot parameters
+  scatter:
+    min_points: 10
+    max_points: 100
+    x_range: [0, 10]
+    y_range: [0, 20]
+    
+  # Pie chart parameters
+  pie_chart:
+    min_slices: 3
+    max_slices: 8
+    total_value: 100
+
+# Verification Parameters
+verification:
+  success_threshold: 0.7
+  comparison_weights:
+    structural: 0.4
+    visual: 0.3
+    data: 0.3
+    
+# Code Generation Parameters
+code_generation:
+  include_imports: true
+  include_show: true
+  include_tight_layout: true
+  default_figsize: [8, 6]
+  
+# Self-Play Parameters
+self_play:
+  mutation_rate: 0.8
+  crossover_rate: 0.2
+  elite_size_ratio: 0.25
+  
+# Logging Parameters
+logging:
+  level: "INFO"
+  save_logs: true
+  log_format: "%(asctime)s - %(levelname)s - %(message)s"
+  
+# Advanced Parameters
+advanced:
+  enable_code_correction: true
+  max_correction_attempts: 3
+  diversity_reward_weight: 0.1
+  complexity_reward_weight: 0.2 
